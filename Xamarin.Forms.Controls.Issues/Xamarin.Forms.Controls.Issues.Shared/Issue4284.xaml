@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<controls:TestContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:Xamarin.Forms.Controls;assembly=Xamarin.Forms.Controls"
+             mc:Ignorable="d"
+             x:Class="Xamarin.Forms.Controls.Issues.Issue4284">
+    <StackLayout>
+        <Label Text="My List View" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+        <ListView x:Name="myList"/>
+        <Button Text="Click Here!" x:Name="myButton" Clicked="myButton_Clicked"/>
+    </StackLayout>
+</controls:TestContentPage>
